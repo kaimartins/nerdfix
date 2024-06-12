@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: radial-gradient(#294380, #0d0f36);
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo {
+    width: 64px;
+}
+
+.header-nav { 
+    display: flex;
+    gap: 16px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    color: #69d2cd;
+    text-transform: uppercase;
+}
+
+a:visited {
+    color: #69d2cd;
+}
+
+a:hover {
+    color: #294380;
+}
+
+.principal {
+    margin: 10% 15%;
+    display: flex; 
+    justify-content: space-around;
+    gap: 5%;
+}
+
+.principal-div {
+    padding-bottom: 10vh;
+}
+
+.principal-titulo {
+    font-size: 3vw;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600px;
+    color: #69d2cd;
+    text-shadow: 2px 2px 5px #294380;
+}
+
+.principal-titulo2 {
+    font-size: 2vw;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600px;
+    color: #69d2cd;
+    text-shadow: 2px 2px 5px #294380;
+}
+
+.principal-descricao {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    color: #f1f6ce;
+}
+.principal-img {
+    width: 30%;
+}
+
+.rodape {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 0.8vw;
+    color: #f1f6ce;
+}
+
+.rodape-texto {
+    padding: 1%;
+}
